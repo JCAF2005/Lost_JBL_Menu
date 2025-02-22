@@ -1,4 +1,4 @@
-local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/JCAF2005/Lost_JBL_Menu/main/code_test.lua'))()
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/JCAF2005/Lost_JBL_Menu/main/Script.lua'))()
 
 --VARIABLES--
 plr = game.Players.LocalPlayer
