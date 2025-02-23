@@ -1493,7 +1493,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 	LoadingFrame.Subtitle.TextTransparency = 1
 
 	LoadingFrame.Version.TextTransparency = 1
-	LoadingFrame.Title.Text = Settings.LoadingTitle or "Rayfield"
+	LoadingFrame.Title.Text = "LostHub"
 	LoadingFrame.Subtitle.Text = "By Lost/jofer223"
 
 	if Settings.LoadingTitle ~= "Rayfield Interface Suite" then
@@ -1847,8 +1847,8 @@ function RayfieldLibrary:CreateWindow(Settings)
 	function Window:CreateTab(Name, Image, Ext)
 		local SDone = false
 		local TabButton = TabList.Template:Clone()
-		TabButton.Name = "LostHub"
-		TabButton.Title.Text = "LostHub"
+		TabButton.Name = Name
+		TabButton.Title.Text = Name
 		TabButton.Parent = TabList
 		TabButton.Title.TextWrapped = false
 		TabButton.Size = UDim2.new(0, TabButton.Title.TextBounds.X + 30, 0, 30)
