@@ -223,7 +223,7 @@ local RayfieldLibrary = {
 		},
 
 		Ocean = {
-			TextColor = Color3.fromRGB(230, 240, 240),
+			TextColor = Color3.fromRGB(189, 0, 0),
 
 			Background = Color3.fromRGB(20, 30, 30),
 			Topbar = Color3.fromRGB(25, 40, 40),
