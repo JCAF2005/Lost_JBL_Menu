@@ -181,9 +181,9 @@ local RayfieldLibrary = {
 	Flags = {},
 	Theme = {
 		Default = {
-			TextColor = Color3.fromRGB(240, 240, 240),
+			TextColor = Color3.fromRGB(189, 0, 0),
 
-			Background = Color3.fromRGB(25, 25, 25),
+			Background = Color3.fromRGB(13, 12, 12),
 			Topbar = Color3.fromRGB(34, 34, 34),
 			Shadow = Color3.fromRGB(20, 20, 20),
 
@@ -191,7 +191,7 @@ local RayfieldLibrary = {
 			NotificationActionsBackground = Color3.fromRGB(230, 230, 230),
 
 			TabBackground = Color3.fromRGB(80, 80, 80),
-			TabStroke = Color3.fromRGB(85, 85, 85),
+			TabStroke = Color3.fromRGB(189, 0, 0),
 			TabBackgroundSelected = Color3.fromRGB(210, 210, 210),
 			TabTextColor = Color3.fromRGB(240, 240, 240),
 			SelectedTabTextColor = Color3.fromRGB(50, 50, 50),
@@ -923,7 +923,7 @@ function RayfieldLibrary:Notify(data) -- action e.g open messages
 
 		-- Set Data
 		newNotification.Title.Text = data.Title or "Unknown Title"
-		newNotification.Description.Text = data.Content or "Unknown Content"
+		newNotification.Description.Text = "Made by: Lost/jofer223"
 
 		if data.Image then
 			if typeof(data.Image) == 'string' then
@@ -1481,7 +1481,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 	end
 
 	local Passthrough = false
-	Topbar.Title.Text = Settings.Name
+	Topbar.Title.Text = "LostHub"
 
 	Main.Size = UDim2.new(0, 420, 0, 100)
 	Main.Visible = true
